@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useEffect, useRef } from 'react';
+import React from 'react';
 import MicroModal from 'micromodal';
 import './Modal.css';
 
