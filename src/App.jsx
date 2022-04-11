@@ -13,12 +13,7 @@ function App() {
     <main>
       <button onClick={() => setIsOpen(true)}>Open the modal</button>
 
-      <Modal 
-        modalId="coolModal" 
-        title="Test Modal" 
-        isOpen={isOpen}
-        onClose={onClose}
-      >
+      <Modal modalId="coolModal">
         <p>Some cool modal content</p>
       </Modal>
     </main>
