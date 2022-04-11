@@ -22,6 +22,7 @@ Some questions we'll need to answer through research and experimentation:
 Update the `boilerplate` branch so when the "Open the modal" button is clicked, the micromodal is opened. Use the tools available to you in React to abstract away the glue code necessary to make this work entirely in the `<Modal>` component; use props to communicate from the application down to your component and vice versa like any other components. Developers using our component shouldn't need to take unusual steps to make use of `<Modal>` other parts of our application. 
 
 In this assignment you'll practice:
+- Designing an abstraction between two programming paradigms
 - Passing props to a component to configure it
 - Lifting and maintaining state in a "controlling" component
 - Using useEffect to react to prop changes and call external libraries to update the UI accordingly
